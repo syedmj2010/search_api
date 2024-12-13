@@ -1,0 +1,11 @@
+langchain-cli
+langchain_openai
+langchain
+langchain_community
+langchain_experimental
+python-dotenv
+tiktoken
+psycopg2-binary 
+pgvector
+streamlit
+
