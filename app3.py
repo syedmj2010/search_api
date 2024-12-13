@@ -25,7 +25,7 @@ if not openai_api_key:
 llm = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key=openai_api_key)
 
 # Folder Path and Query Inputs
-#folder_path = st.text_input("Enter the folder path containing Java files:", r'C:\Workspace\eazyBytes\spring-security', key="folder_path")
+#folder_path = st.text_input("Enter the folder path containing Java files:", r'C:\Workspace\', key="folder_path")
 folder_path = r'C:\Workspace\-----'
 #query = st.text_input("Enter your query related to the Java code:", "Can you provide the api for user creation?", key="query")
 query = st.text_input(  
