@@ -17,7 +17,7 @@ if not openai_api_key:
 llm = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key=openai_api_key)
 
 # Example usage with the LLM
-#response = llm("What is the capital of France?")
+#response = llm("What is the capital eeeee  of France?")
 #print(response)
 
 loader=TextLoader('speech.txt', encoding='utf-8')
